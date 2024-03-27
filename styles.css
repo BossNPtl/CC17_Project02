@@ -1,0 +1,39 @@
+hr {
+    width: 35%;
+}
+ul.Head {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 8px;
+    justify-content: space-evenly;
+    /* space-around,space-between,space-evenly */
+    /* text-align: right; */
+}
+/* li.Head {
+    display: inline;
+} */
+h1 {
+    text-align: center;
+}
+.table-user {
+    background-color: blanchedalmond;
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 100%;
+    color: orangered;
+    text-align: center;
+}
+.table-user th,td {
+    border: 1px solid red;
+    padding: 8px;
+}
+.table-user th {
+    color: brown;
+    background-color: aqua;
+}
+fieldset {
+    border: 1px dashed navy;
+    padding: 18px;
+}
